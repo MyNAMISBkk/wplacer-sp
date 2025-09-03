@@ -1,0 +1,28 @@
+{
+  "name": "wplacer_staging_server_only",
+  "version": "999.999.999",
+  "main": "server.js",
+  "type": "module",
+  "author": "luluwaffless and JinxTheCatto",
+  "license": "AGPL-3.0-only",
+  "funding": "https://ko-fi.com/luluwaffless and https://ko-fi.com/jinxthecat",
+  "scripts": {
+    "start": "node --env-file=.env ."
+  },
+  "dependencies": {
+    "canvas": "^3.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "gradient-string": "^3.0.0",
+    "impit": "0.5.3",
+    "tough-cookie": "^6.0.0",
+    "ws": "^8.18.3"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=10.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
